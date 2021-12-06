@@ -1,0 +1,120 @@
+ body{
+        color:white;
+    }
+    .container {                                /*Container of text and image*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        bottom: 50%;
+        height: 400px;
+        width: 2000px;
+        margin: auto;      
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;                
+           
+        
+    }
+    .positionText {                         /* Position text within container, in div1 */
+             position: absolute;
+             width: 900px;
+             height: 300px; 
+             margin-top: 50px;
+             margin-left: 50px;   
+    }
+    
+    .div0 {                                     /*Main background*/
+        background-color:hsl(233, 47%, 7%);
+        
+    }
+    .div1 {                                     /*Text background*/
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: hsl(244, 38%, 16%);
+        width: 50%;
+        height: 100%;
+        margin:auto;      
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        
+        }
+    .div2{                                       /*Position image in container*/
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 100%;
+        width:50%;
+        
+    }
+     .div3{                                      /*Overlay violet opaque filter on img*/
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-color: hsla(277, 94%, 30%,0.5);
+        width: 100%;
+        height: 100%;
+        margin:auto;          
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;          
+    }
+    
+    img {                                       /*Position image*/
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        margin: auto;         
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        /* filter: custom(277, 64%, 61%);                  /* have overlay image with violet color*/
+        
+    }
+    .h1 {
+        color:hsl(0,0%,100%);
+        font-family: "Inter",sans-serif;
+        font-weight: 700;
+        line-height: 1.5;
+        font-size: 35px; 
+        
+    }
+    
+    .h2 {
+        color:hsl(0.0%,100%);
+        font-weight: 400;
+        line-height: 110%;
+        font-size: 25px;
+        font-family: "Inter", sans-serif;
+        
+    }
+
+    .p1 {
+        color:hsla(0,0%,100%,0.75);
+        font-size: 15px;
+        font-family: "LexendDeca",sans-serif;
+        font-weight:400;
+        line-height: 150%;
+        
+    }
+    table {                                 /*Position bottom text*/
+        position: absolute;
+        margin-left: 0;
+        border-collapse: collapse;
+        bottom: 0%;
+        width: 50%;
+    }
+    tr {
+        border-collapse: collapse;
+        margin-left: inherit;               /*Remove table borders*/
+        
+    }
+    .column {
+        column-width: 120px;
+    }
+    .accent1 {
+        color: hsl(277, 64%, 61%);
+    }
