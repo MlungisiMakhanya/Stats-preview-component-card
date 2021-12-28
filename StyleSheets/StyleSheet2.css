@@ -22,7 +22,11 @@ div:first-child {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;    
 }
-    
+
+img {
+    width: inherit;
+    height: inherit;
+}
     
 .h1 {
     color:hsl(0,0%,100%);
