@@ -19,6 +19,8 @@
 }
 div:first-child {
     background: hsl(244, 38%, 16%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;    
 }
     
     
