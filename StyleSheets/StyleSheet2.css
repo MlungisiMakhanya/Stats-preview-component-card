@@ -9,9 +9,9 @@
     background-color:hsl(233, 47%, 7%);     /*Main background*/
 }
 
-.flex-container div {
+.flex-container div p {
     width: 400px;
-  /*  text-align: center;      */
+    text-align: center;      
   /*  line-height: 400px;      */
     height: 400px;
     
