@@ -27,6 +27,9 @@ img {
     width: inherit;
     height: inherit;
 }
+
+.colorOverlay {
+    background-color: hsla(277, 94%, 30%,0.5);
     
 .h1 {
     color:hsl(0,0%,100%);
